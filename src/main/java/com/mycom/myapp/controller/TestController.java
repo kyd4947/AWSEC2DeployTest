@@ -8,6 +8,6 @@ public class TestController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, AWS! SSH! CI/CD!";
+		return "Hello, AWS! SSH! CI/CD! Local SSH!";
 	}
 }
